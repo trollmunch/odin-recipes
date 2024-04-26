@@ -9,10 +9,11 @@
     padding: 0;
     margin-left: auto;
     margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #homepage {
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 #homepagetitle {
@@ -37,32 +38,69 @@
     width: fit-content;
 }
 
-
-/* 
-#header {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
+#recipename {
     color: black;
     background-color: #a88932;
     font-size: 48px;
     font-weight: bolder;
     text-align: center;
     padding: 10px;
-    border: 20px solid black;
-    width: 400px;
+    border: 5px solid black;
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .picture {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border: 10px solid black;
 }
 
 .description {
     text-align: center;
-    background-color: lightgray;
+    background-color: gray;
+    width: 625px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 5px dotted #a88932;
+}
+
+#descriptioncontent {
+    padding: 10px;
+}
+
+#descriptionheader {
+    margin-bottom: 10px;
+}
+
+#ingredients {
+    border: 3px solid black;
+    padding: 10px 30px;
+    width: fit-content;
+    background-color: #d1d1d1;
+    margin-bottom: 10px;
+}
+
+#steps {
+    border: 3px solid black;
+    padding: 10px 30px;
+    width: fit-content;
+    background-color: #d1d1d1;
+}
+
+#contentheader {
+    text-decoration: underline;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.sideby {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .backbutton {
@@ -71,16 +109,22 @@ h1 {
     font-size: 14px;
     height:30px; 
     width:100px; 
-    margin: -20px -50px; 
+    margin: 45px -50px; 
     position:relative;
     top:50%; 
     left:50%;
+    display: block;
+    border: 2px solid black;
 }
 
-.backbutton a:hover {
-    background-color: white;
+button:hover {
+    background-color: #a88932;
     color: black;
 }
+
+
+/* 
+
 
 #content {
     font-family: Georgia, 'Times New Roman', Times, serif;
