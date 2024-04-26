@@ -12,10 +12,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#homepage {
-    
-}
-
 #homepagetitle {
     font-size: 48px;
     color: black;
@@ -124,14 +120,5 @@ button:hover {
 
 
 /* 
-
-
-#content {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: flex;
-}
-
 outline: 2px solid red;
-
-
 */
